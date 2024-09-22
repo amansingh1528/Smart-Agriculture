@@ -50,3 +50,6 @@ This project presents an **IoT and Machine Learning-based Smart Agriculture Syst
 - Upload Plant Images: Click on the "Upload Image" button to submit crop images for disease detection.
 - Monitor Sensor Data: View real-time updates of soil moisture, humidity, and temperature on the dashboard.
 - View Disease Predictions: After processing, the system will display any detected diseases and suggested treatments.
+## Author
+
+Aman Singh Chauhan
