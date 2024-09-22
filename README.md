@@ -28,13 +28,13 @@ This project presents an **IoT and Machine Learning-based Smart Agriculture Syst
    ```bash
    git clone https://github.com/your-repo/smart-agriculture.git
    cd smart-agriculture
-2. **Install Required Dependencies
+2. **Install Required Dependencies**
    ```bash
    pip install Tensorflow streamlit
-3. **Run the Web Application
+3. **Run the Web Application**
    ```bash
    streamlit run app.py
-4. **Set up IoT Sensors
+4. **Set up IoT Sensors**
    - Connect the soil moisture, humidity, and temperature sensors to the IoT hub.
    - Ensure the sensors are calibrated and configured to send data to the application.
 
