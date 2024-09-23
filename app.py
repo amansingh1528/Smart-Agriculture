@@ -4,8 +4,13 @@ import numpy as np
 import pandas as pd
 
 # Load the CSV file containing disease names and remedies
-disease_remedies_df = pd.read_csv('/Users/mac/Desktop/disease_9.csv')
+#disease_remedies_df = pd.read_csv('/Users/mac/Desktop/disease_9.csv')
+uploaded_file = st.file_uploader("Upload your input CSV file", type=["csv"])
 
+if uploaded_file is not None:
+    # Read the uploaded CSV file
+    disease_remedies_df = pd.read_csv(uploaded_file)
+    #st.write(disease_remedies_df)
 # Tensorflow Model Prediction
 def model_prediction(test_image):
     model = tf.keras.models.load_model("/Users/mac/Downloads/trained_plant_disease_model.keras")
