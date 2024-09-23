@@ -1,6 +1,7 @@
-pip install seaborn
-pip install tensorflow
-pip install keras
-pip install torch
-pip install torchvision
-pip install pillow
+streamlit
+seaborn
+tensorflow
+keras
+torch
+torchvision
+pillow
